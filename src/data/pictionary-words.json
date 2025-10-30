@@ -1,0 +1,22 @@
+[
+  { "word": "APPLE", "emoji": "🍎", "difficulty": "easy" },
+  { "word": "CAR", "emoji": "🚗", "difficulty": "easy" },
+  { "word": "HOUSE", "emoji": "🏠", "difficulty": "easy" },
+  { "word": "SUN", "emoji": "☀️", "difficulty": "easy" },
+  { "word": "TREE", "emoji": "🌳", "difficulty": "easy" },
+  { "word": "FISH", "emoji": "🐟", "difficulty": "easy" },
+  { "word": "HEART", "emoji": "❤️", "difficulty": "easy" },
+  { "word": "STAR", "emoji": "⭐", "difficulty": "easy" },
+  { "word": "FLOWER", "emoji": "🌸", "difficulty": "easy" },
+  { "word": "CAT", "emoji": "🐱", "difficulty": "easy" },
+  { "word": "DOG", "emoji": "🐕", "difficulty": "easy" },
+  { "word": "BALL", "emoji": "⚽", "difficulty": "easy" },
+  { "word": "MOON", "emoji": "🌙", "difficulty": "easy" },
+  { "word": "CLOUD", "emoji": "☁️", "difficulty": "easy" },
+  { "word": "SMILE", "emoji": "😊", "difficulty": "easy" },
+  { "word": "PIZZA", "emoji": "🍕", "difficulty": "easy" },
+  { "word": "CUP", "emoji": "☕", "difficulty": "easy" },
+  { "word": "BOOK", "emoji": "📖", "difficulty": "easy" },
+  { "word": "KEY", "emoji": "🔑", "difficulty": "easy" },
+  { "word": "PHONE", "emoji": "📱", "difficulty": "easy" }
+]
