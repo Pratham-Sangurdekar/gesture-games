@@ -1,25 +1,39 @@
 {
   "expo": {
-    "name": "gesture-games-temp",
-    "slug": "gesture-games-temp",
+    "name": "Gesture Games",
+    "slug": "gesture-games",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#333333"
     },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "This app uses the camera to track your hand gestures for gameplay."
+        }
+      ]
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gesturegames.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to track your hand gestures for gameplay. No recordings are stored."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#333333"
       },
+      "package": "com.gesturegames.app",
+      "permissions": ["CAMERA"],
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
